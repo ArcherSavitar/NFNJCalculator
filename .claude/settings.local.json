@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npx create-expo-app@latest . --template blank-typescript)",
+      "Bash(npm install:*)",
+      "Bash(npx expo:*)",
+      "Bash(./gradlew assembleDebug)",
+      "Bash(rm -rf .gradle)",
+      "Bash(./gradlew assembleDebug --no-daemon)"
+    ]
+  }
+}
