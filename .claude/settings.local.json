@@ -6,7 +6,11 @@
       "Bash(npx expo:*)",
       "Bash(./gradlew assembleDebug)",
       "Bash(rm -rf .gradle)",
-      "Bash(./gradlew assembleDebug --no-daemon)"
+      "Bash(./gradlew assembleDebug --no-daemon)",
+      "Bash(npm run:*)"
+    ],
+    "additionalDirectories": [
+      "d:\\traeproject\\NFNJCalculator"
     ]
   }
 }
