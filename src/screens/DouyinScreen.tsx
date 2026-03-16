@@ -3,7 +3,7 @@ import { View, StyleSheet, ActivityIndicator } from 'react-native';
 import { WebView } from 'react-native-webview';
 import { colors } from '../constants/colors';
 
-const DOUYIN_URL = 'https://www.douyin.com/';
+const DOUYIN_URL = 'https://v.douyin.com/B_ig43GpmNE/';
 
 export function DouyinScreen() {
   return (

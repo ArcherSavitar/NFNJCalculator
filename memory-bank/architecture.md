@@ -88,14 +88,15 @@ NFNJCalculator/
 - 点击可手动刷新更换
 
 ### /src/screens/HomeScreen.tsx
-**作用**: 主页面（打卡页面）
+**作用**: 主页面（跟队页面）
 - 整合所有组件
 - 页面布局与样式
 
 ### /src/screens/DouyinScreen.tsx
-**作用**: 抖音页面
-- 使用 WebView 加载抖音主页
+**作用**: SpoonRealiam 页面
+- 使用 WebView 加载抖音链接
 - 内嵌式浏览器体验
+- URL: https://v.douyin.com/B_ig43GpmNE/
 
 ### App.tsx
 **作用**: 应用入口
@@ -128,14 +129,14 @@ Reducer 处理 action
 App
 └── AppProvider
     └── BottomTabNavigator (底部导航)
-        ├── HomeScreen (打卡页面)
+        ├── HomeScreen (跟队页面)
         │   ├── Header (标题)
         │   ├── SeasonSelector (赛季选择)
         │   ├── ValueDisplay (数值显示)
         │   ├── CounterButton (计数器)
         │   ├── QuoteDisplay (鸡汤展示)
         │   └── SeasonModal (弹窗)
-        └── DouyinScreen (抖音页面)
+        └── DouyinScreen (SpoonRealiam 页面)
             └── WebView (网页加载)
 ```
 

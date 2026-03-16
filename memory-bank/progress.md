@@ -22,6 +22,10 @@
 | 10 | 技术栈文档 (tech-stack.md) | ✅ |
 | 11 | 实施计划文档 (implementation-plan.md) | ✅ |
 | 12 | 架构文档 (architecture.md) | ✅ |
+| 13 | 底部导航系统（跟队 + SpoonRealiam） | ✅ |
+| 14 | 抖音页面（WebView 内嵌） | ✅ |
+| 15 | 修改 Tab 名称和链接 | ✅ |
+| 16 | GitHub README 文档 | ✅ |
 
 ---
 
@@ -36,8 +40,6 @@
 
 ## 待办事项
 
-- 底部导航系统（打卡 + 抖音 Tab）
-- 抖音页面（WebView 内嵌）
 - 计数器动画优化
 - 赛季详情页
 - 数据备份/恢复

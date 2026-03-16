@@ -1,7 +1,6 @@
 import React from 'react';
 import { NavigationContainer } from '@react-navigation/native';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
-import { Text, StyleSheet } from 'react-native';
 import { AppProvider } from './src/context/AppContext';
 import { HomeScreen } from './src/screens/HomeScreen';
 import { DouyinScreen } from './src/screens/DouyinScreen';
@@ -23,22 +22,12 @@ function App() {
           }}
         >
           <Tab.Screen
-            name="打卡"
+            name="跟队"
             component={HomeScreen}
-            options={{
-              tabBarIcon: ({ color }) => (
-                <Text style={[styles.tabIcon, { color }]}>📊</Text>
-              ),
-            }}
           />
           <Tab.Screen
-            name="抖音"
+            name="SpoonRealiam"
             component={DouyinScreen}
-            options={{
-              tabBarIcon: ({ color }) => (
-                <Text style={[styles.tabIcon, { color }]}>📱</Text>
-              ),
-            }}
           />
         </Tab.Navigator>
       </NavigationContainer>
@@ -58,9 +47,6 @@ const styles = StyleSheet.create({
   tabBarLabel: {
     fontSize: 12,
     fontWeight: '600',
-  },
-  tabIcon: {
-    fontSize: 20,
   },
 });
 
