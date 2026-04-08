@@ -92,7 +92,8 @@ const styles = StyleSheet.create({
   value: {
     color: colors.text,
     fontSize: 80,
-    fontWeight: 'bold',
+    fontWeight: '200',
+    letterSpacing: 8,
   },
   editHint: {
     color: colors.textSecondary,
@@ -101,7 +102,7 @@ const styles = StyleSheet.create({
   },
   modalOverlay: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    backgroundColor: 'rgba(0, 0, 0, 0.9)',
     justifyContent: 'center',
     alignItems: 'center',
   },
@@ -111,6 +112,8 @@ const styles = StyleSheet.create({
     padding: spacing.lg,
     width: '80%',
     maxWidth: 300,
+    borderWidth: 1,
+    borderColor: colors.border,
   },
   modalTitle: {
     color: colors.text,
@@ -142,12 +145,12 @@ const styles = StyleSheet.create({
     marginHorizontal: spacing.xs,
   },
   cancelButton: {
-    backgroundColor: colors.background,
+    backgroundColor: 'transparent',
     borderWidth: 1,
     borderColor: colors.border,
   },
   saveButton: {
-    backgroundColor: colors.accent,
+    backgroundColor: colors.text,
   },
   cancelButtonText: {
     color: colors.textSecondary,
@@ -155,7 +158,7 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   saveButtonText: {
-    color: colors.text,
+    color: colors.background,
     fontSize: fontSize.medium,
     fontWeight: '600',
   },

@@ -25,7 +25,7 @@ const styles = StyleSheet.create({
     flexDirection: 'row',
     alignItems: 'center',
     justifyContent: 'center',
-    backgroundColor: colors.card,
+    backgroundColor: 'transparent',
     paddingVertical: spacing.md,
     paddingHorizontal: spacing.lg,
     borderRadius: borderRadius.medium,
@@ -37,6 +37,7 @@ const styles = StyleSheet.create({
     fontSize: fontSize.large,
     fontWeight: '600',
     marginRight: spacing.sm,
+    letterSpacing: 2,
   },
   arrow: {
     color: colors.textSecondary,

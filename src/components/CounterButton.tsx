@@ -40,24 +40,19 @@ export function CounterButton({ onPress }: CounterButtonProps) {
 
 const styles = StyleSheet.create({
   button: {
-    backgroundColor: colors.accent,
+    backgroundColor: 'transparent',
     paddingVertical: spacing.md,
     paddingHorizontal: spacing.xxl,
     borderRadius: borderRadius.medium,
     alignItems: 'center',
     justifyContent: 'center',
-    shadowColor: colors.accent,
-    shadowOffset: {
-      width: 0,
-      height: 4,
-    },
-    shadowOpacity: 0.3,
-    shadowRadius: 8,
-    elevation: 8,
+    borderWidth: 2,
+    borderColor: colors.buttonPrimary,
   },
   buttonText: {
     color: colors.text,
     fontSize: fontSize.xlarge,
     fontWeight: 'bold',
+    letterSpacing: 4,
   },
 });

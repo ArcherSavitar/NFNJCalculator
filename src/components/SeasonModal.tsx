@@ -100,7 +100,7 @@ export function SeasonModal({
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    backgroundColor: 'rgba(0, 0, 0, 0.9)',
     justifyContent: 'flex-end',
   },
   content: {
@@ -108,6 +108,8 @@ const styles = StyleSheet.create({
     borderTopLeftRadius: borderRadius.large,
     borderTopRightRadius: borderRadius.large,
     maxHeight: '80%',
+    borderTopWidth: 1,
+    borderColor: colors.border,
   },
   header: {
     flexDirection: 'row',
@@ -121,6 +123,7 @@ const styles = StyleSheet.create({
     color: colors.text,
     fontSize: fontSize.title,
     fontWeight: 'bold',
+    letterSpacing: 2,
   },
   closeButton: {
     padding: spacing.sm,
@@ -134,7 +137,7 @@ const styles = StyleSheet.create({
     maxHeight: 400,
   },
   seasonCard: {
-    backgroundColor: colors.card,
+    backgroundColor: 'transparent',
     borderRadius: borderRadius.medium,
     padding: spacing.md,
     marginBottom: spacing.sm,
@@ -152,10 +155,12 @@ const styles = StyleSheet.create({
     fontSize: fontSize.small,
   },
   currentBadge: {
-    backgroundColor: colors.accent,
+    backgroundColor: 'transparent',
     paddingHorizontal: spacing.sm,
     paddingVertical: 2,
     borderRadius: borderRadius.round,
+    borderWidth: 1,
+    borderColor: colors.text,
   },
   currentBadgeText: {
     color: colors.text,
@@ -194,16 +199,19 @@ const styles = StyleSheet.create({
     fontSize: fontSize.medium,
   },
   addButton: {
-    backgroundColor: colors.accent,
+    backgroundColor: 'transparent',
     margin: spacing.lg,
     marginTop: 0,
     padding: spacing.md,
     borderRadius: borderRadius.medium,
     alignItems: 'center',
+    borderWidth: 1,
+    borderColor: colors.text,
   },
   addButtonText: {
     color: colors.text,
     fontSize: fontSize.large,
     fontWeight: 'bold',
+    letterSpacing: 2,
   },
 });

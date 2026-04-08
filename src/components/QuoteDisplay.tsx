@@ -43,7 +43,7 @@ const styles = StyleSheet.create({
     marginBottom: spacing.sm,
   },
   quoteBox: {
-    backgroundColor: colors.card,
+    backgroundColor: 'transparent',
     borderRadius: borderRadius.large,
     padding: spacing.lg,
     borderWidth: 1,
@@ -65,7 +65,7 @@ const styles = StyleSheet.create({
     marginTop: spacing.md,
   },
   refreshHint: {
-    color: colors.accent,
+    color: colors.textSecondary,
     fontSize: fontSize.small,
     textAlign: 'center',
     marginTop: spacing.sm,

@@ -30,8 +30,8 @@ NFNJCalculator/
 - `AppContextType` - Context API 类型
 
 ### /src/constants/colors.ts
-**作用**: 主题配色与样式常量
-- 颜色配置 (背景、文字、强调色等)
+**作用**: 极简黑白主题配色与样式常量
+- 颜色配置: 纯黑背景 (#000000)、白色文字 (#FFFFFF)
 - 间距配置 (spacing)
 - 字号配置 (fontSize)
 - 圆角配置 (borderRadius)
@@ -101,7 +101,7 @@ NFNJCalculator/
 ### App.tsx
 **作用**: 应用入口
 - 配置 AppProvider
-- 配置底部导航
+- 配置底部导航 (跟队 + SpoonRealiam)
 - 启动应用
 
 ---

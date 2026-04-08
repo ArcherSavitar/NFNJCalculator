@@ -1,25 +1,25 @@
 // Color constants for the app theme
-// Minimalist dark theme representing focus and self-discipline
+// Minimalist black and white style - pure and powerful
 
 export const colors = {
-  // Primary colors
-  primary: '#1A1A2E',      // Deep navy black
-  accent: '#E94560',        // Rose red
-  background: '#16213E',   // Deep blue
+  // Primary colors - Pure black and white
+  primary: '#000000',        // Pure black
+  accent: '#FFFFFF',         // Pure white (for emphasis)
+  background: '#000000',     // Pure black background
 
   // Text colors
-  text: '#FFFFFF',         // White
-  textSecondary: '#A0A0A0', // Gray
+  text: '#FFFFFF',           // White
+  textSecondary: '#888888',  // Gray
 
   // Additional UI colors
-  card: '#1F2B47',         // Card background
-  border: '#2D3A5A',       // Border color
-  success: '#4CAF50',      // Success green
-  error: '#F44336',        // Error red
+  card: '#111111',           // Near black for cards
+  border: '#333333',         // Dark gray border
+  success: '#FFFFFF',         // White (no color emphasis)
+  error: '#FFFFFF',          // White (no color emphasis)
 
-  // Button colors
-  buttonPrimary: '#E94560', // Rose red
-  buttonPressed: '#C73E54', // Darker rose red
+  // Button colors - Minimalist white outline style
+  buttonPrimary: '#FFFFFF',  // White
+  buttonPressed: '#CCCCCC',   // Light gray when pressed
 };
 
 export const spacing = {
