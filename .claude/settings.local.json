@@ -9,7 +9,8 @@
       "Bash(./gradlew assembleDebug --no-daemon)",
       "Bash(npm run:*)",
       "Bash(git check-ignore *)",
-      "Bash(echo \"exit code: $?\")"
+      "Bash(echo \"exit code: $?\")",
+      "Bash(git remote *)"
     ],
     "additionalDirectories": [
       "d:\\traeproject\\NFNJCalculator"
